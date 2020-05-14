@@ -1,0 +1,24 @@
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	text-align: justify;
+}
+
+@media all and (orientation: landscape) {
+	pre {
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		text-align: justify;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .dir-column {
+  	flex-direction: column !important;
+  }
+
+  .mb-right {
+  	text-align: right;
+  }
+}
